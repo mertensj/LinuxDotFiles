@@ -1,5 +1,4 @@
-#
-#
-#
 Collection of config files
+--------------------------
 
+conkyrc-elementary : simple time / date / CPU / RAM display 
