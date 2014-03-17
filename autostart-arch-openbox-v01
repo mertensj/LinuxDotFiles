@@ -1,0 +1,11 @@
+## Autostart Fil ##
+
+##Background
+(sleep 1s && sh ~/.fehbg )
+
+##Conky
+(sleep 2s && conky) &
+
+##Tilda
+(sleep 1s && tilda) &
+
