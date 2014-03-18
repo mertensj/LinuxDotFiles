@@ -15,7 +15,7 @@ draw_shades no
 use_xft yes
 xftfont Liberation Mono:size=14
 gap_x 5
-gap_y 50 
+gap_y 0 
 minimum_size 400 
 maximum_width 1000
 net_avg_samples 2
@@ -31,7 +31,8 @@ double_buffer yes     # Reduce Flicker
 TEXT
 ${color grey}
 ${font GE Inspira Regular:size=140}${time %H:%M}${font}
-${font Open Sans:size=26}${time %A        %d        %B}${font}
+${font Open Sans:size=26}${time %A       } $alignc${time %d}$alignr${time %B}${font}
 
-${color grey}RAM Usage:$color $mem/$memmax - $memperc% ${membar 4}
-${color grey}CPU Usage:$color $cpu% ${cpubar 4}
+${color grey}DISK :$color $fs_used/$fs_size ${fs_bar 4}
+${color grey}RAM  :$color $mem/$memmax - $memperc% ${membar 4}
+${color grey}CPU  :$color $cpu% ${cpubar 4}
