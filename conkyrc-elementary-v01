@@ -41,12 +41,13 @@ default_color white
 
 TEXT
 #${font Open Sans Light:size=24}${time %A}${font Open Sans:size=24} - ${time %d %B}${font}
-${font Open Sans Light:size=24}${time %A}${font Open Sans:size=24} - ${time %d %b}${font}
+${font Open Sans Light:size=24}${time %A}${font Open Sans:size=24} - ${alignr}${time %d %B}${font}
 #${color grey}${font ZegoeLight-U:pixelsize=40}${time %A}${font}
 ${goto 0}${font Raleway:weight=Light :size=90}${time %H:%M}${font}
 
 
 CPU Ø:	${alignr}${cpu cpu0}% ${cpubar 8,100 cpu0}
 CPU 1:	${alignr}${cpu cpu1}% ${cpubar 8,100 cpu1}
-RAM:	${alignr}$memperc% ${membar 8,100}
+DISK :  ${alignr}${fs_used_perc}% ${fs_bar 8,100 /usr}
+RAM  :	${alignr}$memperc% ${membar 8,100}
 
