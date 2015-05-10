@@ -1,9 +1,12 @@
 Collection of config files
 --------------------------
 
-conkyrc-elementary : simple time / date / CPU  / DISK / RAM display 
-conkyrc-arch-openbox : variant on elementary config
+eOS
+- conkyrc-elementary : simple time / date / CPU  / DISK / RAM display 
 
-autostart : files which lives in ~/.config/openbox
-
+arch
+- openbox
+  - variant on eOS conky script
+- xfce
+  - new script based on manjaro i3x (oberon2007)
 

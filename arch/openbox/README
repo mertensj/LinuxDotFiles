@@ -1,0 +1,8 @@
+Collection of config files
+--------------------------
+
+conkyrc-arch-openbox : variant on elementary config
+
+autostart : files which lives in ~/.config/openbox
+
+
