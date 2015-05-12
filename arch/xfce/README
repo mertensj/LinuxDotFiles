@@ -5,3 +5,8 @@
 2. download Sketch Rockwell font from
    http://www.urbanfonts.com/fonts/Sketch_Rockwell.htm
 
+3. unzip sketch_rockwell.zip
+   cp SketchRockwell-Bold.ttf /usr/share/fonts/TTF
+   fc-cache -vf
+   fc-list | grep Rockwell
+
